@@ -1,0 +1,184 @@
+  @media print {
+        /*body * {
+            visibility: hidden; // part to hide at the time of print
+            -webkit-print-color-adjust: exact !important; // not necessary use         
+               if colors not visible
+        }*/
+        .card{
+          color:black;
+        }
+        .card-header{
+          /*background-color: white;*/
+          /*color: solid black;*/
+        }
+        .btn {
+            visibility: hidden !important; // To hide 
+        }
+        .footer{
+            visibility: hidden !important; // To hide 
+
+        }
+        .header{
+            visibility: hidden !important; // To hide 
+
+        }
+        .modalarea{
+            visibility: hidden !important; // To hide 
+
+        }
+        #page-wrapper * {
+            visibility: visible; // Print only required part
+            text-align: left;
+            -webkit-print-color-adjust: exact !important;
+        }
+        a{
+            visibility: hidden !important; // To hide 
+          
+        }
+    }
+
+      .card{
+        box-shadow: 3px 5px 20px -14px black; border-radius: 0.625rem;    
+      }
+      .modal{
+        box-shadow: 3px 5px 20px 4px white; border-radius: 0.625rem;
+      }
+      .card-header{
+         /*background-color: #0277bd; */
+         /*color:white;*/
+       /*background-color: white; */
+       /*background-color: #23282d; */
+       /*background-color: #0000FF; */
+       /*color:white;*/
+      }
+
+      .card-header a{       
+       /*color:black;*/
+      }
+      .card-header a:hover{
+        /*border-bottom: 2px solid yellow;*/
+      }
+      .card-body {
+        /*padding: 5px;*/
+        border-radius: 0px; 
+        margin-bottom:10px;
+      }
+      .card-footer{
+        background-color:   white;
+        border: 0px; 
+        color:white;
+        padding-bottom: 20px; 
+      }
+      .modal-header{
+       background-color: #0277bd; 
+       color:white;
+       /*padding: 5px;*/
+      }
+
+      .modal-body{
+       background-color: linear-gradient(to bottom right, #ffff00 7%, #009933 95%); 
+       color:black;
+       padding: 0px 10px;
+      }
+      .modal-header a{
+       background-color: #23282d; 
+       color:white;"
+      }
+      .modal-header a:hover{
+        border-bottom: 2px solid yellow;
+      }
+      .modal-footer{
+        background-color: #0277bd; 
+        color:white;
+      }
+      .close{
+        color:white;
+      }
+      .form-control-sm{
+        border-radius: 50px;
+      }
+
+
+      .footer-link:hover{
+        color: black;
+      }
+
+  .closebutton {
+    position: relative;
+    float: right;
+    color: black;
+    top: -40px;
+    right: -10px;
+  }
+
+
+.card-up {
+    height: 100px;
+    overflow: hidden;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+.aqua-gradient {
+    background: linear-gradient(40deg,#2096ff,#05ffa3) !important;
+}
+.avatar {
+    /*width: 130px;*/
+    margin-top: -60px;
+    overflow: hidden;
+    /*border: 5px solid #fff;*/
+    /*border-radius: 50%;*/
+}
+  .dashcards{
+
+    border:0px; 
+    box-shadow: 3px 5px 20px -14px black; border-radius: 0.625rem;     
+    margin: 30px; 
+    background-color: white;
+  }
+  .dashcards>.btn{
+    box-shadow: 3px 5px 20px -14px black; border-radius: 0.625rem;     
+  }
+  .dashcards:hover{
+    /*border:2px solid black;*/
+    /*padding: 20px;*/
+    box-shadow: 6px 11px 41px -28px black; border-radius: 0.625rem;     
+  }
+  .btn-main{
+    background: #28ABE3;
+    border: 1px solid #28ABE3;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 12px 40px;
+    text-transform: uppercase;
+    border-radius: 40px;
+
+  }
+  .btnn{
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    line-height: 1.5;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  a:hover{
+        text-decoration: none;
+    outline: 0;
+    color: #fff;
+
+  }
+  .btn-main:hover{
+    opacity: .8;
+  }
+  .btn-transparent {
+    color: #fff;
+    border: 1px solid #fff;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 14px 35px;
+    text-transform: uppercase;
+    border-radius: 40px;
+}

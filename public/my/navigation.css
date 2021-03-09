@@ -1,0 +1,28 @@
+  nav a{
+    color:white;
+    border-bottom: 3px solid #23282d;
+  } 
+
+  .nav-link:hover{
+    color:white;
+    border-bottom: 3px solid #40ff00;
+    /*background-color: black;*/
+  }
+  .dropdown-menu{
+    background-color: #23282d;
+    color: white;
+  }
+  .dropdown-item {
+    color: white;
+  }
+/*  .dropdown-item :hover{
+    background-color: white;
+    color: black;
+  }*/
+  .dropdown-item:hover{
+    background-color: black;
+    color: white;
+  }
+  .footer a{
+    color:white;
+  }

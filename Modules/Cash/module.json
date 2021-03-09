@@ -1,0 +1,13 @@
+{
+    "name": "Cash",
+    "alias": "cash",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Cash\\Providers\\CashServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

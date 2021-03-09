@@ -1,0 +1,13 @@
+{
+    "name": "GroupTicket",
+    "alias": "groupticket",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\GroupTicket\\Providers\\GroupTicketServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Excelwork",
+    "alias": "excelwork",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Excelwork\\Providers\\ExcelworkServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
