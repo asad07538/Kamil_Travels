@@ -24,6 +24,7 @@ use Modules\Common\Entities\PersonFax;
 use Modules\Common\Entities\PersonPhone;
 
 use Illuminate\Support\Facades\Auth;
+use Hash;
 
 class CustomerController extends Controller
 {

@@ -30,7 +30,9 @@
 				<td>{{$car_booking->car->type->name}}</td>
 				<td>
 					@if($car_booking->car)
-						{{$car_booking->car->company->name}}
+						@if($car_booking->car->company)
+							{{$car_booking->car->company->name}}
+						@endif
 					@endif
 				</td>
 				<td>{{$car_booking->sector->name}}</td>

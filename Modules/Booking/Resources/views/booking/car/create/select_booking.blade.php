@@ -30,7 +30,9 @@
         <td class="p-1">{{$loop->iteration}}</td>
         <td class="p-1">{{$car_booking->driver->person->name}}</td>
         <td class="p-1">{{$car_booking->car->type->name}}</td>
-        <td class="p-1">{{$car_booking->car->company->name}}</td>
+        <td class="p-1">
+        {{$car_booking->car->company ? $car_booking->car->company->name : ""}}
+        </td>
         <td class="p-1">{{$car_booking->sector->name}}</td>
         <td class="p-1">{{$car_booking->traveling_date}}</td>
         <td class="p-1">{{$car_booking->status}}</td>

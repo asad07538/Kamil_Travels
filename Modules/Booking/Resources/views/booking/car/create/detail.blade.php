@@ -27,7 +27,9 @@
       <tr>
         <td class="p-1">{{$carbooking->driver->person->name}}</td>
         <td class="p-1">{{$carbooking->car->type->name}}</td>
-        <td class="p-1">{{$carbooking->car->company->name}}</td>
+        <td class="p-1">
+        {{$carbooking->car->company ? $car_booking->car->company->name : ""}}
+        </td>
         <td class="p-1">{{$carbooking->sector->name}}</td>
       </tr>
       </tbody>

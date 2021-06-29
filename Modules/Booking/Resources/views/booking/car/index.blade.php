@@ -27,10 +27,17 @@
               <th class="py-1">Sector</th>
             </tr>
             <tr>
-              <td class="py-1">{{$car_booking->car_booking->car->company->name}}</td>
-              <td class="py-1">{{$car_booking->car_booking->car->type->name}}</td>
-              <td class="py-1">{{$car_booking->car_booking->driver->person->name}}</td>
-              <td class="py-1">{{$car_booking->car_booking->sector->name}}</td>
+              <td class="py-1">
+              {{$car_booking->car_booking->car->company ? $car_booking->car_booking->car->company->name :""}}</td>
+              <td class="py-1">
+              
+              {{$car_booking->car_booking->car->type? $car_booking->car_booking->car->type->name : ""}}</td>
+              <td class="py-1">
+        {{$car_booking->car_booking->driver->person ? $car_booking->car_booking->driver->person->name: ""}}
+              </td>
+              <td class="py-1">
+        {{$car_booking->car_booking->sector->name ? $car_booking->car_booking->sector->name: ""}}
+              </td>
             </tr>
             <tr>
               <th class="py-1">Time</th>
